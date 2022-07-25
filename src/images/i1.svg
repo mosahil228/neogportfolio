@@ -1,0 +1,106 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="410" height="173" viewBox="0 0 410 173" fill="none"><SCRIPT xmlns="" id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) =&gt; {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) =&gt; {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) =&gt; {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</SCRIPT>
+<g opacity="0.4">
+<ellipse rx="25.4" ry="25.3498" transform="matrix(-1 0 0 1 50.8022 147.65)" fill="#22A66B"/>
+<rect width="25.4" height="25.3498" transform="matrix(-1 0 0 1 25.4023 147.65)" fill="#21C47B"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="147" width="26" height="26">
+<rect width="25.4" height="25.3498" transform="matrix(-1 0 0 1 25.4023 147.65)" fill="#1B0255"/>
+</mask>
+<g mask="url(#mask0)">
+<ellipse rx="25.4" ry="25.3498" transform="matrix(-1 0 0 1 25.4047 173)" fill="#0F8D55"/>
+</g>
+<rect x="50.8008" y="147.65" width="25.4" height="25.3498" fill="#21C47B"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="50" y="147" width="27" height="26">
+<rect x="50.8008" y="147.65" width="25.4" height="25.3498" fill="#1B0255"/>
+</mask>
+<g mask="url(#mask1)">
+<ellipse cx="50.7994" cy="173" rx="25.4" ry="25.3498" fill="#0F8D55"/>
+</g>
+<rect width="25.4" height="25.3498" transform="matrix(-1 0 0 1 25.4023 71.6007)" fill="#21C47B"/>
+<path d="M0.00234604 71.6007V96.9505H25.4023L0.00234604 71.6007Z" fill="#0F8D55"/>
+<rect width="25.4" height="25.3498" transform="matrix(-1 0 0 1 76.1992 96.9507)" fill="#21C47B"/>
+<path d="M50.7992 96.9507V122.3H76.1992L50.7992 96.9507Z" fill="#0F8D55"/>
+<rect x="101.602" y="147.65" width="25.4" height="25.3498" fill="#22A66B"/>
+<path d="M127.002 147.65V173H101.602L127.002 147.65Z" fill="#21C47B"/>
+<rect width="25.4" height="25.3498" transform="matrix(1 0 0 -1 0 71.6009)" fill="#18BB72"/>
+<path d="M25.4 71.6009V46.2511H0L25.4 71.6009Z" fill="#21C47B"/>
+<rect x="50.8008" y="71.6009" width="25.4" height="25.3498" fill="#18BB72"/>
+<rect x="50.8008" y="46.2509" width="25.4" height="25.3498" fill="#18BB72"/>
+<path d="M76.2008 46.2509V71.6007H50.8008L76.2008 46.2509Z" fill="#21C47B"/>
+<rect x="76.2002" y="20.9012" width="25.4" height="25.3498" fill="#18BB72"/>
+<path d="M101.6 20.9012V46.251H76.2002L101.6 20.9012Z" fill="#21C47B"/>
+<rect x="25.4023" y="122.301" width="25.4" height="25.3498" transform="rotate(-180 25.4023 122.301)" fill="#22A66B"/>
+<rect x="25.4023" y="109.626" width="12.7" height="12.6749" transform="rotate(-180 25.4023 109.626)" fill="#21C47B"/>
+<rect x="101.602" y="134.975" width="12.7" height="12.6749" transform="rotate(-180 101.602 134.975)" fill="#21C47B"/>
+<rect x="76.1992" y="147.65" width="25.4" height="25.3498" fill="#21C47B"/>
+<rect x="25.4023" y="71.6007" width="25.4" height="25.3498" fill="#21C47B"/>
+<rect x="50.8008" y="122.3" width="25.4" height="25.3498" fill="#21C47B"/>
+<rect y="122.3" width="25.4" height="25.3498" fill="#36D68F"/>
+<rect x="25.4023" y="147.65" width="25.4" height="25.3498" fill="#22A66B"/>
+<ellipse cx="38.1023" cy="160.325" rx="12.7" ry="12.6749" fill="#21C47B"/>
+<ellipse cx="38.1015" cy="160.325" rx="5.64444" ry="5.63329" fill="#36D68F"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 311.602 172.802)" fill="#26AF72"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="311" y="148" width="26" height="25">
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 311.602 172.802)" fill="#1B0255"/>
+</mask>
+<g mask="url(#mask2)">
+<ellipse rx="24.5999" ry="24.5513" transform="matrix(1 0 0 -1 311.6 148.251)" fill="#0F8D55"/>
+</g>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 385.398 99.148)" fill="#26AF72"/>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="385" y="74" width="25" height="26">
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 385.398 99.148)" fill="#1B0255"/>
+</mask>
+<g mask="url(#mask3)">
+<ellipse rx="24.5999" ry="24.5513" transform="matrix(1 0 0 -1 385.4 74.5967)" fill="#0F8D55"/>
+</g>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 336.195 74.5967)" fill="#1AC176"/>
+<path d="M360.795 74.5967V50.0455H336.195L360.795 74.5967Z" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 287 172.802)" fill="#1AC176"/>
+<path d="M311.6 172.802V148.25H287L311.6 172.802Z" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 336.195 50.0454)" fill="#1AC176"/>
+<path d="M360.795 50.0454V25.4941H336.195L360.795 50.0454Z" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 385.398 50.0454)" fill="#1AC176"/>
+<path d="M409.998 50.0454V25.4941H385.398L409.998 50.0454Z" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 360.797 25.494)" fill="#1AC176"/>
+<path d="M385.397 25.494V0.942743H360.797L385.397 25.494Z" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 336.196 172.802)" fill="#26AF72"/>
+<path d="M360.796 172.802V148.25H336.196L360.796 172.802Z" fill="#0F8D55"/>
+<rect width="24.5999" height="24.5513" transform="matrix(-1 0 0 1 410 99.1479)" fill="#26AF72"/>
+<path d="M385.4 99.1479V123.699H410L385.4 99.1479Z" fill="#0F8D55"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 360.796 172.802)" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 385.399 172.802)" fill="#0F8D55"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 385.398 148.251)" fill="#18BB72"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 360.797 148.251)" fill="#36D68F"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 336.195 148.251)" fill="#1AC176"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 360.801 99.1479)" fill="#1AC176"/>
+<rect width="24.5999" height="24.5513" transform="matrix(1 0 0 -1 385.395 74.5967)" fill="#36D68F"/>
+</g>
+</svg>
