@@ -9,7 +9,7 @@ import {NavLink} from "react-router-dom"
 
 const Home = () => {
     return (
-        <>
+        <div className='mainRoot'>
             <section className='home-section'>
                 <div className='container'>
                     <div className='content-box'>
@@ -72,7 +72,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 
