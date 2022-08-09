@@ -38,17 +38,21 @@ const Projects = () => {
               <div className='hero-section hero-sectionHam'>
                 <div className='hero-left2'>
                   <div className='hamItem'>
-                    <h1>Live projects</h1>
-                    <GiCrossMark onClick={closeHam}/>
+                    <h1 className='uppercase'>LIVE PROJECTS</h1>
+                    <GiCrossMark onClick={closeHam} />
                   </div>
 
                   {Sdata2.map((data, index) => {
                     return (
+
                       <div className='hleft-item' key={index}>
                         <div className='h-imgBox'>
                           <img src={data.img} alt="" />
                         </div>
-                        <span>{data.name}</span>
+                        <a href={data.link}
+                          target="_blank"
+                          rel="noreferrer noopener">
+                          <span>{data.name}</span></a>
                       </div>
                     )
                   })}
@@ -59,7 +63,7 @@ const Projects = () => {
         </div>}
         <div className='container'>
           <div className='search-sec'>
-            <h1>Live Projects </h1>
+            <h1>LIVE PROJECTS </h1>
             <div className='hamburger' onClick={toggleBar}>
               <div className='hamDiv'>
                 <CgMenuLeft />
@@ -85,8 +89,12 @@ const Projects = () => {
                     <div className='h-imgBox'>
                       <img src={data.img} alt="" />
                     </div>
-                    <span>{data.name}</span>
+                    <a href={data.link}
+                      target="_blank"
+                      rel="noreferrer noopener" >
+                      <span>{data.name}</span></a>
                   </div>
+
                 )
               })}
 
@@ -115,8 +123,14 @@ const Projects = () => {
                         </div>
                         <p>{data.desc}</p>
                         <div className='hero-button'>
-                          <button>Live project</button>
-                          <button>Source code</button>
+                          <a href={data.link}
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            <button>Live project</button></a>
+                          <a href={data.link2}
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            <button>Source code</button></a>
                         </div>
                       </div>
                     </div>

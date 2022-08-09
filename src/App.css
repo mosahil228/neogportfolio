@@ -496,6 +496,9 @@ header {
   margin-bottom: 18px;
   cursor: pointer;
 }
+.project-section .container .hero-section .hero-left .hleft-item a {
+  text-decoration: none !important;
+}
 .project-section .container .hero-section .hero-left .hleft-item span {
   font-size: 15px;
   color: #344B80;
@@ -511,6 +514,9 @@ header {
 }
 .project-section .container .hero-section .hero-left2 {
   width: 100%;
+}
+.project-section .container .hero-section .hero-left2 a {
+  text-decoration: none !important;
 }
 .project-section .container .hero-section .hero-left2 .hamItem {
   margin-bottom: 3rem;
@@ -541,6 +547,7 @@ header {
   font-size: 15px;
   color: #344B80;
   line-height: 22px;
+  text-decoration: none !important;
 }
 .project-section .container .hero-section .hero-left2 .hleft-item .h-imgBox {
   width: 35px;

@@ -100,51 +100,68 @@ const Sdata2 = [
     {
         name: "Stock App",
         img: (stock),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
     },
     {
         name: "Palidrome Birthday",
         img: (palindrone),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
     },
     {
         name: "funWithTriangles App",
         img: (fun),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
     },
     {
         name: "Lucky Birthday App",
         img: (lucky),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
     },
     {
         name: "Cash Register App",
         img: (cash),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
     },
     {
         name: "GoodBooks",
         img: (good),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+
         
     },
     {
         name: "Emoji Interpreter",
         img: (emoji),
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+
        
     },
     {
         name: "Talk Like Groot",
         img: (talk1),
+        link:"https://talk-likegroot.netlify.app/",
+
         
     },
     {
         name: "Talk Like Banana",
         img: (talk2),
+        link:"https://talk-with-banana.netlify.app/",
+
         
     },
     {
         name: "Quiz On Cricket",
         img: (quiz),
+        link:"https://replit.com/@MOHDSahil4/quizoncricket?embed=1&output=1#index.js",
+
         
     },
     {
         name: "Do You Know Me",
         img: (doyou),
+        link:"https://replit.com/@MOHDSahil4/endgame?embed=1&output=1#index.js",
+
     },
     
 ]
@@ -153,67 +170,89 @@ const Sdata3 = [
         ser:"11-",
         name:"Stock App",
         time:"15-Aug-2022",
-        desc:"A stock app which takes initial value of your stock, quantity of stocks which you holds and current price of that stock and shows you whether you are in profit, loss or nothing."
+        desc:"A stock app which takes initial value of your stock, quantity of stocks which you holds and current price of that stock and shows you whether you are in profit, loss or nothing.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"10-",
         name:"Palindrome Birthdates",
         time:"14-Aug-2022",
-        desc:"A birthday app which takes bithdate as input and shows whether it is palindrome or not. If birthdate is not palindrome then it also show nearest next palindrome date and days from which you missed it."
+        desc:"A birthday app which takes bithdate as input and shows whether it is palindrome or not. If birthdate is not palindrome then it also show nearest next palindrome date and days from which you missed it.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"9-",
         name:"funWithTriangles App",
         time:"14-Aug-2022",
-        desc:"A fun app based on triangles which contains quizzes and which can be used to find area, sum of triangles and hypotenuse of a triangle when two sides are given."
+        desc:"A fun app based on triangles which contains quizzes and which can be used to find area, sum of triangles and hypotenuse of a triangle when two sides are given.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"8-",
         name:"Lucky Birthday App",
         time:"9-Aug-2022",
-        desc:"A web app which takes input of your birthday and lucky number and tells you whether your birthday is lucky or not."
+        desc:"A web app which takes input of your birthday and lucky number and tells you whether your birthday is lucky or not.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"7-",
         name:"Cash Register App",
         time:"5-Aug-2022",
-        desc:"An app which helps to calculate how much amount you need to give back to user after deducting bill amount."
+        desc:"An app which helps to calculate how much amount you need to give back to user after deducting bill amount.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"6-",
         name:"GoodBooks",
         time:"2-Aug-2022",
-        desc:"A book recommendation app which recommend you the books according to your interests."
+        desc:"A book recommendation app which recommend you the books according to your interests.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"5-",
         name:"Emoji Interpreter",
         time:"19-July-2022",
-        desc:"An emoji interpreter which tells the meaning of the entered emoji."
+        desc:"An emoji interpreter which tells the meaning of the entered emoji.",
+        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link2:"https://github.com/mosahil228/emojiinterpreter",
     },
     {
         ser:"4-",
         name:"Talk Like Groot?",
         time:"02-July-2022",
-        desc:"A stock app which takes initial value of your stock, quantity of stocks which you holds and current price of that stock and shows you whether you are in profit, loss or nothing."
+        desc:"A stock app which takes initial value of your stock, quantity of stocks which you holds and current price of that stock and shows you whether you are in profit, loss or nothing.",
+        link:"https://talk-likegroot.netlify.app/",
+        link2:"https://github.com/mosahil228/talklikegroot",
     },
     {
         ser:"3-",
         name:"Talk Like Banana",
         time:"25-June-2022",
-        desc:"Are you a fan of minions? Did you know that the gibberish they say is an actual language."
+        desc:"Are you a fan of minions? Did you know that the gibberish they say is an actual language.",
+        link:"https://talk-with-banana.netlify.app/",
+        link2:"https://github.com/mosahil228/banana-speak-app",
     },
     {
         ser:"2-",
         name:"Quiz On Cricket",
         time:"20-June-2022",
-        desc:"A CLI ( command line interface ) app to know your knowledge about Cricket!"
+        desc:"A CLI ( command line interface ) app to know your knowledge about Cricket!",
+        link:"https://replit.com/@MOHDSahil4/quizoncricket?embed=1&output=1#index.js",
+        link2:"https://github.com/mosahil228/quizoncricket",
     },
     {
         ser:"1-",
         name:"Do You Know Me?",
         time:"11-June-2022",
-        desc:"A CLI ( command line interface ) app to know how better you know me?"
+        desc:"A CLI ( command line interface ) app to know how better you know me?",
+        link:"https://replit.com/@MOHDSahil4/endgame?embed=1&output=1#index.js",
+        link2:"https://github.com/mosahil228/doyouknowme",
     },
 ]
 export default Sdata;

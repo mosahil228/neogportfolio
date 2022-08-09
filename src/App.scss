@@ -473,6 +473,7 @@ header {
           color: #bbc0d1;
           font-size: 1.4rem;
         }
+        
 
         .firstImg {
           width: 32px !important;
@@ -522,8 +523,9 @@ header {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 1rem;
-    .hero-sectionHam{
-      margin: 2rem 0!important;
+
+    .hero-sectionHam {
+      margin: 2rem 0 !important;
     }
 
     .hero-section {
@@ -531,10 +533,11 @@ header {
       align-items: flex-start;
       margin: 5rem 0;
 
-      .hero-left{
+      .hero-left {
         min-width: 215px;
         position: sticky;
         top: 120px;
+
 
         .hleft-item {
           display: flex;
@@ -542,6 +545,9 @@ header {
           justify-content: flex-start;
           margin-bottom: 18px;
           cursor: pointer;
+          a {
+            text-decoration: none !important;
+          }
 
           span {
             font-size: 15px;
@@ -559,23 +565,31 @@ header {
           }
         }
       }
-      .hero-left2{
+
+      .hero-left2 {
         width: 100%;
-        .hamItem{
+
+        a {
+          text-decoration: none !important;
+        }
+
+        .hamItem {
           margin-bottom: 3rem;
           padding-bottom: 2rem;
           border-bottom: 1px solid #eaf2fa;
           @include flex-between;
-          svg{
+
+          svg {
             color: $main-clr2;
             font-size: 25px;
           }
-          h1{
+
+          h1 {
             font-size: 21px;
             line-height: 30px;
             color: #1D1B84;
             letter-spacing: 0.03rem;
-            
+
           }
         }
 
@@ -589,7 +603,8 @@ header {
           span {
             font-size: 15px;
             color: $main-clr3;
-            line-height: 22px
+            line-height: 22px;
+            text-decoration: none !important;
           }
 
           .h-imgBox {
@@ -864,48 +879,52 @@ header {
     }
   }
 }
+
 .hiddenBar {
   position: fixed;
   left: -100%;
   height: 100%;
   width: 320px;
-  overflow-y:scroll;
+  overflow-y: scroll;
   background-color: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   top: 0;
   z-index: 999999;
-  transition: all 0.5s cubic-bezier(.79,.14,.15,.86);
-  transform: translate3d(0,0,0);
-  
+  transition: all 0.5s cubic-bezier(.79, .14, .15, .86);
+  transform: translate3d(0, 0, 0);
+
 }
 
 .hLeft {
   left: 0 !important;
-  transition: all 0.5s cubic-bezier(.79,.14,.15,.86);
-  transform: translate3d(0,0,0);
+  transition: all 0.5s cubic-bezier(.79, .14, .15, .86);
+  transform: translate3d(0, 0, 0);
 }
 
 // responsive css
-@media(min-width:1100px){
-  .hiddenBar{
+@media(min-width:1100px) {
+  .hiddenBar {
     display: none;
   }
 }
+
 @media (max-width: 1100px) {
   .hamburger {
     min-width: 50px;
     border-radius: 8px;
     height: 50px;
-    display: block!important;
+    display: block !important;
     margin-right: 1rem;
     box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
     background-color: #fff;
-    .hamDiv{
+
+    .hamDiv {
       width: 100%;
       height: 100%;
       @include flex;
     }
-    svg{
+
+    svg {
       font-size: 30px;
     }
   }
