@@ -125,7 +125,7 @@ const Sdata2 = [
     {
         name: "GoodBooks",
         img: (good),
-        link:"https://sahil-emoji-interpreter.netlify.app/",
+        link:"https://goodbooks-sahil.netlify.app/",
 
         
     },
@@ -211,8 +211,8 @@ const Sdata3 = [
         name:"GoodBooks",
         time:"2-Aug-2022",
         desc:"A book recommendation app which recommend you the books according to your interests.",
-        link:"https://sahil-emoji-interpreter.netlify.app/",
-        link2:"https://github.com/mosahil228/emojiinterpreter",
+        link:"https://goodbooks-sahil.netlify.app/",
+        link2:"https://github.com/mosahil228/goodbooks",
     },
     {
         ser:"5-",
